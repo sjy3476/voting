@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전자투표 시스템</title>
+</head>
+<body>
+    <h1>전자투표 시스템</h1>
+    <form action="/vote" method="POST">
+        <label>투표할 후보를 선택하세요:</label>
+        <select name="candidate">
+            <option value="A">후보 A</option>
+            <option value="B">후보 B</option>
+            <option value="C">후보 C</option>
+        </select>
+        <button type="submit">투표</button>
+    </form>
+</body>
+</html>
